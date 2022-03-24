@@ -18,4 +18,5 @@ const color = prompt("inserisci il tuo colore preferito")
 console.log(color);
 
 //scrivi sulla pagina il risultato in questo formato : nomecognomecolorepreferito22
+const password = `${first_name}${last_name}${color}22`
 document.getElementById("password").innerHTML = `${first_name}${last_name}${color}22`
